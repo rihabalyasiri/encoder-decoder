@@ -3,6 +3,8 @@ let klarTextArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
 let encoder = document.getElementById('encoder');
 let decoder = document.getElementById('decoder');
 
+// austauschen space mit komma with join
+
 encoder.addEventListener('click', function () {
     console.log("encoder")
     let inputText = (document.getElementById('input').value).toLowerCase();
